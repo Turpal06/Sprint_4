@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="MainPageFAQTest" time="28.506" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\java\yandex\Sprint_4\target\test-classes;C:\java\yandex\Sprint_4\target\classes;C:\Users\qwerty\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\qwerty\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\qwerty\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\qwerty\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\qwerty\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\qwerty\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\qwerty\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\qwerty\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\qwerty\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\qwerty\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\qwerty\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\qwerty\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\qwerty\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\qwerty\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\qwerty\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\qwerty\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\qwerty\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\qwerty\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\qwerty\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\qwerty\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\qwerty\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\qwerty\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\qwerty\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\qwerty\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\qwerty\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\qwerty\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\qwerty\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\qwerty\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\qwerty\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\qwerty\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\qwerty\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\qwerty\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\qwerty\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\qwerty\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\qwerty\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\qwerty\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\qwerty\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\qwerty\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\qwerty\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\qwerty\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\qwerty\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\qwerty\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\qwerty\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\qwerty\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\qwerty\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\qwerty\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Asia/Yekaterinburg"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.23_9\bin"/>
+    <property name="sun.java.command" value="C:\Temp\surefire16359794005650560944\surefirebooter-20240608135544046_3.jar C:\Temp\surefire16359794005650560944 2024-06-08T13-55-43_916-jvmRun1 surefire-20240608135544046_1tmp surefire_0-20240608135544046_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\java\yandex\Sprint_4\target\test-classes;C:\java\yandex\Sprint_4\target\classes;C:\Users\qwerty\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\qwerty\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\qwerty\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\qwerty\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\qwerty\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\qwerty\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\qwerty\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\qwerty\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\qwerty\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\qwerty\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\qwerty\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\qwerty\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\qwerty\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\qwerty\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\qwerty\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\qwerty\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\qwerty\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\qwerty\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\qwerty\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\qwerty\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\qwerty\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\qwerty\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\qwerty\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\qwerty\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\qwerty\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\qwerty\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\qwerty\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\qwerty\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\qwerty\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\qwerty\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\qwerty\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\qwerty\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\qwerty\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\qwerty\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\qwerty\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\qwerty\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\qwerty\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\qwerty\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\qwerty\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\qwerty\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\qwerty\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\qwerty\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\qwerty\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\qwerty\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\qwerty\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\qwerty\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\qwerty"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk11.0.23_9"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\java\yandex\Sprint_4"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Temp\surefire16359794005650560944\surefirebooter-20240608135544046_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.23+9-LTS"/>
+    <property name="user.name" value="qwerty"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.23.9.1"/>
+    <property name="localRepository" value="C:\Users\qwerty\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Temp\"/>
+    <property name="idea.version" value="2024.1"/>
+    <property name="java.version" value="11.0.23"/>
+    <property name="user.dir" value="C:\java\yandex\Sprint_4"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.23_9\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Amazon Corretto\jdk11.0.23_9\bin;C:\java\chrome-win64;C:\Python\Python39\Scripts\;C:\Python\Python39\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\java\IntelliJ IDEA 2020.3.3\plugins\maven\lib\maven3\bin;C:\Program Files\Amazon Corretto\jdk11.0.23_9\bin;C:\Program Files\WireGuard\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\java\apache-maven-3.9.6\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\qwerty\AppData\Local\Microsoft\WindowsApps;C:\java\IntelliJ IDEA 2022.1.2\bin;;C:\Users\qwerty;C:\Program Files\JetBrains\DataGrip 2022.1.2\bin;;C:\python\PyCharm 2022.1.3\bin;;C:\java\apache-maven-3.9.6\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.23+9-LTS"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="AccordationTest[0]" classname="MainPageFAQTest" time="3.515">
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+1717836944740	geckodriver	INFO	Listening on 127.0.0.1:41984
+1717836944857	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileRRW1Kl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1717836945084	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1717836945374	Marionette	INFO	Listening on port 60101
+Read port: 60101
+1717836945514	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+июн. 08, 2024 1:55:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: ({})
+1717836947354	Marionette	INFO	Stopped listening on port 60101
+Dynamically enable window occlusion 1
+]]></system-err>
+  </testcase>
+  <testcase name="AccordationTest[1]" classname="MainPageFAQTest" time="3.198">
+    <system-err><![CDATA[1717836947887	geckodriver	INFO	Listening on 127.0.0.1:19044
+1717836947899	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilelCE1kB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1717836948131	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1717836948398	Marionette	INFO	Listening on port 60131
+Read port: 60131
+1717836948479	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+июн. 08, 2024 1:55:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: ({})
+1717836950498	Marionette	INFO	Stopped listening on port 60131
+Dynamically enable window occlusion 1
+]]></system-err>
+  </testcase>
+  <testcase name="AccordationTest[2]" classname="MainPageFAQTest" time="4.163">
+    <system-err><![CDATA[1717836951086	geckodriver	INFO	Listening on 127.0.0.1:41037
+1717836951107	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofilelOp24I"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1717836951335	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1717836951593	Marionette	INFO	Listening on port 60163
+Read port: 60163
+1717836951685	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+июн. 08, 2024 1:55:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: ({})
+1717836954696	Marionette	INFO	Stopped listening on port 60163
+Dynamically enable window occlusion 1
+]]></system-err>
+  </testcase>
+  <testcase name="AccordationTest[3]" classname="MainPageFAQTest" time="4.44">
+    <system-err><![CDATA[1717836955252	geckodriver	INFO	Listening on 127.0.0.1:10631
+1717836955263	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileVZRcst"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1717836955487	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1717836955763	Marionette	INFO	Listening on port 60200
+Read port: 60200
+1717836955845	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+июн. 08, 2024 1:55:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: ({})
+1717836959097	Marionette	INFO	Stopped listening on port 60200
+Dynamically enable window occlusion 1
+]]></system-err>
+  </testcase>
+  <testcase name="AccordationTest[4]" classname="MainPageFAQTest" time="3.634">
+    <system-err><![CDATA[1717836959681	geckodriver	INFO	Listening on 127.0.0.1:32941
+1717836959692	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileQh3eUj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1717836959958	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1717836960264	Marionette	INFO	Listening on port 60236
+Read port: 60236
+1717836960372	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+июн. 08, 2024 1:56:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: ({})
+1717836962741	Marionette	INFO	Stopped listening on port 60236
+Dynamically enable window occlusion 1
+]]></system-err>
+  </testcase>
+  <testcase name="AccordationTest[5]" classname="MainPageFAQTest" time="2.889">
+    <system-err><![CDATA[1717836963315	geckodriver	INFO	Listening on 127.0.0.1:5893
+1717836963326	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileYnuP97"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1717836963550	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1717836963813	Marionette	INFO	Listening on port 60263
+Read port: 60263
+1717836963906	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+июн. 08, 2024 1:56:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: ({})
+1717836965644	Marionette	INFO	Stopped listening on port 60263
+Dynamically enable window occlusion 1
+]]></system-err>
+  </testcase>
+  <testcase name="AccordationTest[6]" classname="MainPageFAQTest" time="3.554">
+    <system-err><![CDATA[1717836966198	geckodriver	INFO	Listening on 127.0.0.1:28066
+1717836966206	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofileVDrn31"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1717836966428	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1717836966687	Marionette	INFO	Listening on port 60289
+Read port: 60289
+1717836966782	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+июн. 08, 2024 1:56:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: ({})
+1717836969180	Marionette	INFO	Stopped listening on port 60289
+Dynamically enable window occlusion 1
+]]></system-err>
+  </testcase>
+  <testcase name="AccordationTest[7]" classname="MainPageFAQTest" time="3.08">
+    <system-err><![CDATA[1717836969752	geckodriver	INFO	Listening on 127.0.0.1:39501
+1717836969764	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Temp\\rust_mozprofile4Ai6v5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1717836969990	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1717836970264	Marionette	INFO	Listening on port 60317
+Read port: 60317
+1717836970345	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+июн. 08, 2024 1:56:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.error: ({})
+1717836972212	Marionette	INFO	Stopped listening on port 60317
+Dynamically enable window occlusion 1
+]]></system-err>
+  </testcase>
+</testsuite>
